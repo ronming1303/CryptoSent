@@ -11,14 +11,15 @@ We compute the overall CryptoSent following the methodology of [Baker and Wurgle
 
 $$
 \begin{aligned}
-\text{CryptoSent}_t ={}& 0.4095\times \text{Crypto\_Index}_{t-1} \\
-&+ 0.2701\times \text{Google\_Trend}_t \\
-&+ 0.3759\times \#\text{Tweet}_{t-1} \\
-&+ 0.3678\times \text{Volatility}_t \\
-&+ 0.3882\times \text{Volume}_{t-1} \\
-&+ 0.3840\times \#\text{Wallet}_t
+CryptoSent_t =\ & 0.4095\times Crypto\ Index_{t-1} \\
+&+ 0.2701\times Google\ Trend_t \\
+&+ 0.3759\times \#Tweet_{t-1} \\
+&+ 0.3678\times Volatility_t \\
+&+ 0.3882\times Volume_{t-1} \\
+&+ 0.3840\times \#Wallet_t
 \end{aligned}
 $$
+
 
 
 ## Time Series Data of CryptoSent
