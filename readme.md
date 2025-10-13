@@ -13,10 +13,10 @@ $$
 \begin{aligned}
 CryptoSent_t =\ & 0.4095\times Crypto\ Index_{t-1} \\
 &+ 0.2701\times Google\ Trend_t \\
-&+ 0.3759\times \#Tweet_{t-1} \\
+&+ 0.3759\times \text{#}Tweet_{t-1} \\
 &+ 0.3678\times Volatility_t \\
 &+ 0.3882\times Volume_{t-1} \\
-&+ 0.3840\times \#Wallet_t
+&+ 0.3840\times \text{#}Wallet_t
 \end{aligned}
 $$
 
